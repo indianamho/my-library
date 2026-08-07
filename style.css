@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Yu Gothic", sans-serif;
+    background: #f5efe6;
+}
+
+h1 {
+    text-align: center;
+    color: #7a5230;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+
+/* 棚板 */
+.shelf {
+    background: #8b5a2b;
+    height: 16px;
+    border-radius: 8px;
+    margin: 35px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+}
+
+/* 本 */
+.book {
+    display: inline-block;
+    width: 110px;
+    height: 180px;
+    margin: 8px;
+    padding: 12px;
+    background: linear-gradient(#ffffff, #f6f2ed);
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    vertical-align: top;
+    transition: transform 0.2s;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+
+.book h2 {
+    font-size: 18px;
+    color: #5b3a29;
+}
+
+.book p {
+    font-size: 14px;
+    color: #666;
+}
